@@ -3,8 +3,6 @@ extends Node
 ## Abstract base class for animation using maths
 class_name Dynamics
 
-
-
 var dynamic_k1: float
 var dynamic_k2: float
 var dynamic_k3: float
