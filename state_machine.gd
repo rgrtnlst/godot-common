@@ -42,6 +42,7 @@ func set_initial_state(state: Callable) -> void:
 		push_warning("No state with name %s stored in state machine" % state_key)
 	
 
+## Call this in Physics Process regularly
 func update() -> void:
 	if current_state == "":
 		return
