@@ -8,7 +8,6 @@ var previous_value: float
 var new_value: float
 var velocity: float
 
-
 func initialize(_original_value: float) -> void:
 	pass
 
