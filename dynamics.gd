@@ -34,10 +34,10 @@ func setup_dynamics() -> void:
 	dynamic_k3 = attack * damping_coefficient / (TAU * frequency)
 
 
-@warning_ignore("untyped_declaration")
+@warning_ignore_start("untyped_declaration")
 @abstract func update(_delta: float, _target_value, _velocity)
-@warning_ignore("untyped_declaration")
 @abstract func initialize(original_value) -> void
+@warning_ignore_restore("untyped_declaration")
 
 func _set_frequency(_frequency: float) -> void:
 	frequency = _frequency
