@@ -7,6 +7,7 @@ class_name FloatDynamics
 var previous_value: float
 var new_value: float
 var velocity: float
+#A new comment thank you very much
 
 func initialize(_original_value: float) -> void:
 	pass
